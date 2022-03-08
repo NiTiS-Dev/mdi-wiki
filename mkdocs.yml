@@ -11,8 +11,8 @@ theme:
   custom_dir: overrides
   shortcuts:
     help: 191    # ?
-    next: 78     # n
-    previous: 80 # p
+    next: 39     # right arrow
+    previous: 37 # left arrow
     search: 83   # s
   features:
     - navigation.tracking

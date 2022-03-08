@@ -39,7 +39,10 @@ jobs:
       - name: Install dependencies
         run: python3 -m pip install -r ./requirements.txt
       - name: Run WikiGenerator
-        run: dotnet run WikiGenerator.csproj -c Release
+        run: |
+          cd WikiGenerator
+          dotnet run WikiGenerator.csproj -c Release
+          cd ..
       - name: Generate docs
         run: |
           mkdocs build

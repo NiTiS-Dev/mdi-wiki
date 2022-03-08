@@ -1,0 +1,13 @@
+site_name: MDI Wiki
+site_url: https://mindustrygame.github.io/wiki/
+repo_url: https://github.com/MindustryGame/wiki
+docs_dir: 'docs'
+theme: 
+  name: material
+  favicon: images/favicon.png
+  logo: images/favicon.png
+  custom_dir: overrides
+  features:
+    - navigation.tracking
+extra_css:
+  - 'styles/style.css'

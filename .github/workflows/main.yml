@@ -37,7 +37,7 @@ jobs:
         run: python3 -m pip install -r ./requirements.txt
       - name: Generate docs
         run: |
-          ls
+          cd ..
           mkdocs build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

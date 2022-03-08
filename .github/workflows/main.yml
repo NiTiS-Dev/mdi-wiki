@@ -27,7 +27,7 @@ jobs:
         run: echo "::set-output name=dir::$(pip cache dir)"
       - name: Clone WikiGenerator
         run: |
-          git clone https://github.com/NickName73/WikiGenerator.git .
+          git clone https://github.com/NickName73/WikiGenerator.git
         
       - name: Cache dependencies
         uses: actions/cache@v2

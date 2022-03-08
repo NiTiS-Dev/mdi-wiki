@@ -1,4 +1,6 @@
 site_name: MDI Wiki
+site_author: NiTiS-Dev
+site_description: Official Wiki of MoreDumbItems mod
 site_url: https://nitis-dev.github.io/mdi-wiki/
 repo_url: https://github.com/NiTiS-Dev/mdi-wiki
 docs_dir: 'docs'
@@ -7,6 +9,11 @@ theme:
   favicon: images/favicon.png
   logo: images/favicon.png
   custom_dir: overrides
+  shortcuts:
+    help: 191    # ?
+    next: 78     # n
+    previous: 80 # p
+    search: 83   # s
   features:
     - navigation.tracking
 extra_css:

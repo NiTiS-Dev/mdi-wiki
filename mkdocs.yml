@@ -1,6 +1,6 @@
 site_name: MDI Wiki
-site_url: https://mindustrygame.github.io/wiki/
-repo_url: https://github.com/MindustryGame/wiki
+site_url: https://nitis-dev.github.io/mdi-wiki/
+repo_url: https://github.com/NiTiS-Dev/mdi-wiki
 docs_dir: 'docs'
 theme: 
   name: material

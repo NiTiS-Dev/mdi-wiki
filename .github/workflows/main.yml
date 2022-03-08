@@ -27,7 +27,7 @@ jobs:
         run: echo "::set-output name=dir::$(pip cache dir)"
       - name: Clone WikiGenerator
         run: |
-          git clone https://github.com/NickName73/WikiGenerator.git
+          git clone https://github.com/NickName73/WikiGenerator.git wiki-gen
         
       - name: Cache dependencies
         uses: actions/cache@v2
@@ -40,7 +40,7 @@ jobs:
         run: python3 -m pip install -r ./requirements.txt
       - name: Run WikiGenerator
         run: |
-          cd WikiGenerator
+          cd wiki-gen
           dotnet run WikiGenerator.csproj -c Release
           cd ..
       - name: Generate docs

@@ -4,20 +4,22 @@
 
 
 <!-- Twitter telegram etc -->
-<meta name="description" content="Ehm.. weird website" />
-<meta name="url" content="#">
+<meta name="description" content="{{ config.site_description }}" />
+<meta name="url" content="{{ page.url }}">
 <!--link rel="icon" href="favicon.ico" type="image/x-icon" /-->
 
 <!-- Discord -->
 <meta property="og:title" content="{{ page.title }}" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="{{ page.abs_url }}" />
-<meta property="og:image" content="#/image.png" />
+<meta property="og:url" content="{{ page.url }}" />
+<meta property="og:image" content="https://raw.githubusercontent.com/NiTiS-Dev/mdi-wiki/previews/{{ page.abs_url }}" />
 <meta property="og:description" content="{{ config.site_description }}" />
 <meta name="theme-color" content="#b472ed">
 
 <!-- Include this to make the og:image larger -->
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="{{ config.site_name }}">
+<meta name="twitter:creator" content="{{ config.site_author }}">
 
 
 

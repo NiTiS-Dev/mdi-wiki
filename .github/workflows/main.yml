@@ -1,0 +1,9 @@
+name: Generate
+
+on:
+	push:
+		branches:
+			- "singleton"
+	schedule:
+    - cron: "0 1 * * *"
+	workflow_dispatch:

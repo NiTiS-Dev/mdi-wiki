@@ -1,4 +1,4 @@
-# <img id="item-icon" src="@icon_src"></img> @item_name
+# <img id="item-icon" src="@icon_src" /> @item_name
 
 *@description*
 

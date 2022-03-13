@@ -22,7 +22,7 @@ a.md-nav__link > img#item-icon {
 h1 > img#item-icon {
     margin: 10px;
 }
-img#item-icon < h1 {
+a.md-content__button.md-icon ~ h1 {
     display: flex;
     align-items: center;
 }

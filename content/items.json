@@ -2,7 +2,9 @@
 	"type": "Item",
 	"values": [
 		{
-			"doc": "items/resources/diolite.md",
+			"doc": "items/resources",
+			"name": "diolite.md",
+			"index": 0,
 			"values": {
 				"id": "mdi:diolite",
 				"item_name": "Diolite",

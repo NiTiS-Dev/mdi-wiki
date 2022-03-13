@@ -1,7 +1,12 @@
 {% extends 'base.html' %}
-<h1>
-Oh no, How Unfortunate
-</h1>
-<p>
-Looks like you required page moved or doesn't exists 
-</p>
+
+{% block content %}
+
+    <div class="row-fluid">
+      <div id="main-content" class="span12">
+        <h1 id="404-page-not-found" style="text-align: center">Oh no, How Unfortunate</h1>
+        <p style="text-align: center"><strong>{% trans %}Looks like you required page moved or doesn't exists{% endtrans %}</strong></p>
+      </div>
+    </div>
+
+{% endblock %}

@@ -27,7 +27,7 @@ jobs:
         run: echo "::set-output name=dir::$(pip cache dir)"
       - name: Clone WikiGenerator
         run: |
-          git clone https://github.com/NickName73/WikiGenerator.git wiki-gen
+          git clone https://github.com/NickName73/NiTiS.Generator.Mkdocs.git wiki-gen
         
       - name: Cache dependencies
         uses: actions/cache@v2
@@ -40,9 +40,7 @@ jobs:
         run: python3 -m pip install -r ./requirements.txt
       - name: Run WikiGenerator
         run: |
-          cd wiki-gen
-          dotnet run WikiGenerator.csproj -c Release
-          cd ..
+          dotnet run --project wiki-gen/Tests/NiTiS.Tests.Console/ -c Release --framework net5.0
       - name: Generate docs
         run: |
           mkdocs build

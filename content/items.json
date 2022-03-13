@@ -10,7 +10,9 @@
 				"icon_src": "https://github.com/NiTiS-Dev/mdi-wiki/raw/singleton/textures/mdi/diolite.png",
 				"item_name": "Diolite",
 				"fire_immune": true
-			},
+			}
+		},
+		{
 			"doc": "items/resources",
 			"name": "diolite_ingot.md",
 			"index": 1,

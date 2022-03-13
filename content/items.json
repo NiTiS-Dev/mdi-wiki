@@ -7,6 +7,7 @@
 			"index": 0,
 			"values": {
 				"id": "mdi:diolite",
+				"icon_src": "https://github.com/NiTiS-Dev/mdi-wiki/raw/singleton/textures/mdi/diolite.png",
 				"item_name": "Diolite",
 				"fire_immune": true
 			}

@@ -1,7 +1,8 @@
-# <img id="item-icon" src="/@item_name.png"></img> @item_name
+# <img id="item-icon" src="@icon_src"></img> @item_name
 
-@description
+*@description*
 
-Summary
 |ID|@id|
 |Fire Immune|@fire_immune|
+
+---

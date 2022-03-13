@@ -4,7 +4,7 @@
 
 |Data|Value|
 |:-----|:-----:|
-|ID|@id|
+|ID|`@id`|
 |Fire Immune|@fire_immune|
 
 ---

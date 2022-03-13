@@ -5,6 +5,7 @@
 			"doc": "items/resources/diolite.md",
 			"values": {
 				"id": "mdi:diolite",
+				"item_name": "Diolite",
 				"fire_immune": true
 			}
 		}

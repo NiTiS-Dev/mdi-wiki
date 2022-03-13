@@ -3,7 +3,7 @@ site_author: NiTiS-Dev
 site_description: Official Wiki of MoreDumbItems mod
 site_url: https://nitis-dev.github.io/mdi-wiki/
 repo_url: https://github.com/NiTiS-Dev/mdi-wiki
-edit_url: ""
+edit_uri: "TEST"
 docs_dir: 'docs'
 theme: 
   name: material
@@ -17,5 +17,7 @@ theme:
     search: 83   # s
   features:
     - navigation.tracking
+    - content.tabs.link
+    - search.hightlight
 extra_css:
   - 'stylesheets/style.css'

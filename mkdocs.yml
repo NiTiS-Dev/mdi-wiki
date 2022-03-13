@@ -18,8 +18,3 @@ theme:
     - navigation.tracking
 extra_css:
   - 'stylesheets/style.css'
-extra:
-  version: 0.13.0
-  links:
-    - https://github.com/NiTiS-Dev
-    - https://curseforge.com/mc-mods/mdi

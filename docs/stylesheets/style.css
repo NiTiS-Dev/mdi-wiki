@@ -11,3 +11,12 @@
 img#item-icon {
     width: 1.6em;
 }
+div.md-ellipsis > img#item-icon {
+    margin-top: 12px;
+}
+div.md-ellipsis > img#item-icon {
+    margin-top: 12px;
+}
+a.md-nav__link > img#item-icon {
+    
+}

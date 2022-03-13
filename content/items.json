@@ -1,13 +1,12 @@
-[
-  {
-    "id": "minecraft:stick"
-  },
-  {
-    "id": "mdi:diolite",
-    "page": {
-      "index": 0
-      
-    }
-  },
-  {}
-]
+{
+	"type": "Item",
+	"values": [
+		{
+			"doc": "items/resources/diolite.md",
+			"values": {
+				"id": "mdi:diolite",
+				"fire_immune": true
+			}
+		}
+	]
+}

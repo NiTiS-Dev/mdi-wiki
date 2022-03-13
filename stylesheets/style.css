@@ -1,9 +1,13 @@
 .wy-side-nav-search {
     background-color: #212121;
 }
+.wy-nav-content {
+  max-width: 100% !important;
+}
 
 .md-header {
     background-color: #212121 !important;
 }
 img.item-icon {
+    width: 1.6em;
 }

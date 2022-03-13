@@ -9,7 +9,7 @@
 				"id": "mdi:diolite",
 				"icon_src": "https://github.com/NiTiS-Dev/mdi-wiki/raw/singleton/textures/mdi/diolite.png",
 				"item_name": "Diolite",
-				"fire_immune": true
+				"fire_immune": "True"
 			}
 		},
 		{
@@ -20,7 +20,7 @@
 				"id": "mdi:diolite_ingot",
 				"icon_src": "https://github.com/NiTiS-Dev/mdi-wiki/raw/singleton/textures/mdi/diolite_ingot.png",
 				"item_name": "Diolite Ingot",
-				"fire_immune": true
+				"fire_immune": "True"
 			}
 		}
 	]

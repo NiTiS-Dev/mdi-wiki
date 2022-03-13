@@ -2,6 +2,8 @@
 
 *@description*
 
+|Data|Value|
+|:-----|:-----:|
 |ID|@id|
 |Fire Immune|@fire_immune|
 
